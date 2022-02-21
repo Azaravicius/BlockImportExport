@@ -5,7 +5,7 @@ This is AutoLISP application for AutoCAD. It will create window for easy block i
 
 ### This application needs OpenDCL to work. OpenDCL can be downloaded from https://opendcl.com/
 
-Tested on OpenDCL 9.1.4.0 and AutoCAD Civil 3D 2022.
+Tested on OpenDCL 9.1.4.0, AutoCAD Civil 3D 2022 and BricsCAD Platinum 20.2.10
 
 All block data needs to be in this format:
 (BlockName; Y coordinate; X coordinate; Z coordinate; Attribut1; Attribut2; ...; AttributN)
