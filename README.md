@@ -1,5 +1,5 @@
 # BlockImportExport
-Block Import and Export autolisp for AutoCAD
+Block Import and Export autolisp for AutoCAD and BricsCAD
 
 This is AutoLISP application for AutoCAD. It will create window for easy block import to drawing or export from drawing. 
 
