@@ -23,12 +23,15 @@ On the left top is shown list of all blocks in current drawing. Double clicking 
 At left from Blocks field is Delimiter field with all supported delimiters and text box for custom delimiter. Most often Auto delimiter will work well.
 
 Button "Import" will open window for data import from csv files (or other text files). Here you can specify directory of csv files. On left side will be shown files and folders of current directory. Double clicking folder will open this folder. Double clicking ".." will go up by one directory. Double clicking file it will be moved to right side into selected files list. Many files can be selected at once and moved to right with "Add Files" button. Files can be removed from selected files list by double clicking them or selecting them and pressing "Remove Files" button. Files can be filtered by selecting CSV and TXT options. If CSV and TXT options are not selected all files will be shown. If CSV option is selected, only CSV files will be shown.
+
 ![image](https://user-images.githubusercontent.com/27780893/155005226-2c9eafee-6f90-4f98-b3fc-723b4691f3a8.png)
 
 Data can also be imported from clipboard. To import data from clipboard press on button "Past" in Main window. And past data to new window.
+
 ![image](https://user-images.githubusercontent.com/27780893/155006345-7f4ed354-a089-4002-b525-90a0e061fbe4.png)
 
 After importing block data to Main window it will look like this:
+
 ![image](https://user-images.githubusercontent.com/27780893/155007644-b7730701-88ca-4b60-b78c-8be3adac609d.png)
 
 Infromation section shows information about block data. Mainly number of times block will be imported and if block with Name don't exist in current drawing it will be shown as comment. In this case you will need to import block from external drawing file.
