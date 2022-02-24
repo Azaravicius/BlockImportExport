@@ -961,9 +961,12 @@
 
 ; Get configuration information from AutoCAD cfg file AppData section of BlockImportExport.
 ; Name - [str] Name of configuaration property.
-; Returns: [str] value of configuration property or nil.
-(defun DA:GetCfgValue (Name /)
-  (getcfg (strcat "AppData/DA-BlockImportExport/" Name))
+; Returns: [str] value of configuration property or "".
+(defun DA:GetCfgValue (Name / result)
+  (if (not (setq result (getcfg (strcat "AppData/DA-BlockImportExport/" Name))))
+	""
+	result
+  )
 )
 
 ; Save configuration information to AutoCAD cfg file AppData section of BlockImportExport.
